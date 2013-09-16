@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		226A356242BA4A9C8318F48D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D9B65C02FD4A28A3FDE73D /* libPods.a */; };
 		FE35909A17E5156F00313A36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE35909917E5156F00313A36 /* UIKit.framework */; };
 		FE35909C17E5156F00313A36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE35909B17E5156F00313A36 /* Foundation.framework */; };
 		FE35909E17E5156F00313A36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE35909D17E5156F00313A36 /* CoreGraphics.framework */; };
@@ -24,6 +25,10 @@
 		FE3590C317E5156F00313A36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE35909B17E5156F00313A36 /* Foundation.framework */; };
 		FE3590CB17E5156F00313A36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE3590C917E5156F00313A36 /* InfoPlist.strings */; };
 		FE3590CE17E5156F00313A36 /* Radio_controllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3590CD17E5156F00313A36 /* Radio_controllerTests.m */; };
+		FE3590D917E51A9500313A36 /* RCStation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3590D817E51A9500313A36 /* RCStation.m */; };
+		FE986E2917E7A4E500B33840 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FE986E2817E7A4E500B33840 /* icon.png */; };
+		FE986E2B17E7A4E800B33840 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE986E2A17E7A4E800B33840 /* icon@2x.png */; };
+		FE986E2D17E7A4F500B33840 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = FE986E2C17E7A4F500B33840 /* icon-72.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FD88D24C2E1473C9D7D671C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		E6D9B65C02FD4A28A3FDE73D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE35909617E5156F00313A36 /* Radio controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE35909917E5156F00313A36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FE35909B17E5156F00313A36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +67,11 @@
 		FE3590CA17E5156F00313A36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE3590CC17E5156F00313A36 /* Radio_controllerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Radio_controllerTests.h; sourceTree = "<group>"; };
 		FE3590CD17E5156F00313A36 /* Radio_controllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Radio_controllerTests.m; sourceTree = "<group>"; };
+		FE3590D717E51A9500313A36 /* RCStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCStation.h; sourceTree = "<group>"; };
+		FE3590D817E51A9500313A36 /* RCStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCStation.m; sourceTree = "<group>"; };
+		FE986E2817E7A4E500B33840 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FE986E2A17E7A4E800B33840 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		FE986E2C17E7A4F500B33840 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 				FE35909A17E5156F00313A36 /* UIKit.framework in Frameworks */,
 				FE35909C17E5156F00313A36 /* Foundation.framework in Frameworks */,
 				FE35909E17E5156F00313A36 /* CoreGraphics.framework in Frameworks */,
+				226A356242BA4A9C8318F48D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,10 +102,14 @@
 		FE35908D17E5156F00313A36 = {
 			isa = PBXGroup;
 			children = (
+				FE986E2C17E7A4F500B33840 /* icon-72.png */,
+				FE986E2A17E7A4E800B33840 /* icon@2x.png */,
+				FE986E2817E7A4E500B33840 /* icon.png */,
 				FE35909F17E5156F00313A36 /* Radio controller */,
 				FE3590C617E5156F00313A36 /* Radio controllerTests */,
 				FE35909817E5156F00313A36 /* Frameworks */,
 				FE35909717E5156F00313A36 /* Products */,
+				3FD88D24C2E1473C9D7D671C /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +129,7 @@
 				FE35909B17E5156F00313A36 /* Foundation.framework */,
 				FE35909D17E5156F00313A36 /* CoreGraphics.framework */,
 				FE3590C017E5156F00313A36 /* SenTestingKit.framework */,
+				E6D9B65C02FD4A28A3FDE73D /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,6 +144,8 @@
 				FE3590B717E5156F00313A36 /* RCViewController.h */,
 				FE3590B817E5156F00313A36 /* RCViewController.m */,
 				FE3590A017E5156F00313A36 /* Supporting Files */,
+				FE3590D717E51A9500313A36 /* RCStation.h */,
+				FE3590D817E51A9500313A36 /* RCStation.m */,
 			);
 			path = "Radio controller";
 			sourceTree = "<group>";
@@ -166,19 +186,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE35909517E5156F00313A36 /* Radio controller */ = {
+		FE35909517E5156F00313A36 /* Radio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE3590D117E5156F00313A36 /* Build configuration list for PBXNativeTarget "Radio controller" */;
+			buildConfigurationList = FE3590D117E5156F00313A36 /* Build configuration list for PBXNativeTarget "Radio" */;
 			buildPhases = (
+				5DABADBEE9824C45816524DA /* Check Pods Manifest.lock */,
 				FE35909217E5156F00313A36 /* Sources */,
 				FE35909317E5156F00313A36 /* Frameworks */,
 				FE35909417E5156F00313A36 /* Resources */,
+				5C9CE4A7FEA743B584998A60 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Radio controller";
+			name = Radio;
 			productName = "Radio controller";
 			productReference = FE35909617E5156F00313A36 /* Radio controller.app */;
 			productType = "com.apple.product-type.application";
@@ -224,7 +246,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE35909517E5156F00313A36 /* Radio controller */,
+				FE35909517E5156F00313A36 /* Radio */,
 				FE3590BE17E5156F00313A36 /* Radio controllerTests */,
 			);
 		};
@@ -241,6 +263,9 @@
 				FE3590B017E5156F00313A36 /* Default-568h@2x.png in Resources */,
 				FE3590B317E5156F00313A36 /* MainStoryboard_iPhone.storyboard in Resources */,
 				FE3590B617E5156F00313A36 /* MainStoryboard_iPad.storyboard in Resources */,
+				FE986E2917E7A4E500B33840 /* icon.png in Resources */,
+				FE986E2B17E7A4E800B33840 /* icon@2x.png in Resources */,
+				FE986E2D17E7A4F500B33840 /* icon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +280,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5C9CE4A7FEA743B584998A60 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DABADBEE9824C45816524DA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		FE3590BD17E5156F00313A36 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,6 +333,7 @@
 				FE3590A617E5156F00313A36 /* main.m in Sources */,
 				FE3590AA17E5156F00313A36 /* RCAppDelegate.m in Sources */,
 				FE3590B917E5156F00313A36 /* RCViewController.m in Sources */,
+				FE3590D917E51A9500313A36 /* RCStation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +350,7 @@
 /* Begin PBXTargetDependency section */
 		FE3590C517E5156F00313A36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FE35909517E5156F00313A36 /* Radio controller */;
+			target = FE35909517E5156F00313A36 /* Radio */;
 			targetProxy = FE3590C417E5156F00313A36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -395,6 +451,7 @@
 		};
 		FE3590D217E5156F00313A36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD88D24C2E1473C9D7D671C /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Radio controller/Radio controller-Prefix.pch";
@@ -406,6 +463,7 @@
 		};
 		FE3590D317E5156F00313A36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD88D24C2E1473C9D7D671C /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Radio controller/Radio controller-Prefix.pch";
@@ -461,13 +519,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE3590D117E5156F00313A36 /* Build configuration list for PBXNativeTarget "Radio controller" */ = {
+		FE3590D117E5156F00313A36 /* Build configuration list for PBXNativeTarget "Radio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE3590D217E5156F00313A36 /* Debug */,
 				FE3590D317E5156F00313A36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE3590D417E5156F00313A36 /* Build configuration list for PBXNativeTarget "Radio controllerTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +535,7 @@
 				FE3590D617E5156F00313A36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
