@@ -69,9 +69,9 @@
 		FE3590CD17E5156F00313A36 /* Radio_controllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Radio_controllerTests.m; sourceTree = "<group>"; };
 		FE3590D717E51A9500313A36 /* RCStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCStation.h; sourceTree = "<group>"; };
 		FE3590D817E51A9500313A36 /* RCStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCStation.m; sourceTree = "<group>"; };
-		FE986E2817E7A4E500B33840 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		FE986E2A17E7A4E800B33840 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		FE986E2C17E7A4F500B33840 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		FE986E2817E7A4E500B33840 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		FE986E2A17E7A4E800B33840 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		FE986E2C17E7A4F500B33840 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "../icon-72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +102,6 @@
 		FE35908D17E5156F00313A36 = {
 			isa = PBXGroup;
 			children = (
-				FE986E2C17E7A4F500B33840 /* icon-72.png */,
-				FE986E2A17E7A4E800B33840 /* icon@2x.png */,
-				FE986E2817E7A4E500B33840 /* icon.png */,
 				FE35909F17E5156F00313A36 /* Radio controller */,
 				FE3590C617E5156F00313A36 /* Radio controllerTests */,
 				FE35909817E5156F00313A36 /* Frameworks */,
@@ -153,6 +150,9 @@
 		FE3590A017E5156F00313A36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FE986E2C17E7A4F500B33840 /* icon-72.png */,
+				FE986E2A17E7A4E800B33840 /* icon@2x.png */,
+				FE986E2817E7A4E500B33840 /* icon.png */,
 				FE3590A117E5156F00313A36 /* Radio controller-Info.plist */,
 				FE3590A217E5156F00313A36 /* InfoPlist.strings */,
 				FE3590A517E5156F00313A36 /* main.m */,
